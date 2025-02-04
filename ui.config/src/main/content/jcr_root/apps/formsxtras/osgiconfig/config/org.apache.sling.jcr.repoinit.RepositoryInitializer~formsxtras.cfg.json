@@ -1,0 +1,7 @@
+{
+    "scripts": [
+        "create path (sling:OrderedFolder) /content/dam/formsxtras",
+        "create path (nt:unstructured) /content/dam/formsxtras/jcr:content",
+        "set properties on /content/dam/formsxtras/jcr:content\n  set cq:conf{String} to /conf/formsxtras\n  set jcr:title{String} to \"Forms Add Ons\"\nend"
+    ]
+}
